@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Press+Start+2P&family=Rampart+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0px;
+    width: 100%;
+
+    min-height: 100%;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    background-color: #8892b0;
+
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+
+
+.fundo{
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+    bottom: 5px;
+}
+
+.fundo .imagem_fundo{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    display: block;
+    /* opacity: 0.7; */
+}
+
+.meio {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* flex-direction: column; */
+    padding-top: 50px;
+}
+
+.imagem_ {
+    height: 15vw;
+    width: 15vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    filter: sepia(1);
+    border-radius: 50%;
+}
+
+.imagem_:hover {
+    filter: none;
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+}
+
+
+.titulo {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+
+    font-weight: 500;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 40px;
+    color: #ffffff;
+    /* text-align: justify; */
+}
+
+div h1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+
+    background-color: #ab4545;
+    padding: 5px;
+    width: 40vh;
+    border-radius: 50px;
+
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+}
+div h2{
+    color: #ab4545;
+    padding: 3px;
+}
+
+
+
+.container-branco {
+    /* display: contents; */
+    display: flex;
+    margin: auto; 
+    /* arrumar para deixar uma margim top */
+    padding: 20px;
+    width: 100vh;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 50px;
+    /* border-bottom: 1px solid #ccc; TESTAR */
+    
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    /* opacity: 0.7; */
+    
+
+}
+.transicao_cima{
+    display: flex;
+    height: 100px;
+    background-position: center;
+    
+}
+.transicao {
+    display: flex;
+    flex-wrap: wrap;
+    height: 150px;
+    background-position: center;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%,
+    rgba(0, 0, 0, 1) 65%, rgba(0, 0, 0, 1) 100%);;
+
+}
+
+.curriculo{
+    margin: 30px 0px 10px 0px;
+}
+
+.container-branco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px 20px 0px ;
+}
+
+.fundo2 {
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+    bottom: 5px;   
+    background: linear-gradient(0deg, rgba(255,255,255,0) 0%, 
+    rgba(0,0,0,1) 50%, rgba(0,0,0,1) 100%);;
+    
+
+}
+
+.conteudo2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* z-index: -1;  */
+    height: 500px;
+    /* position: relative;   */
+    background: linear-gradient(0deg, rgba(255,255,255,0) 0%, 
+    rgba(0,0,0,1) 10%, rgba(0,0,0,1) 100%);;
+   
+}
+
+.conteudo2 .container-branco{
+    /* display: flex; */
+    /* margin: auto; */
+    /* padding: 20px; */
+    /* width: 100vh; */
+    /* height: auto; */
+    background-color: #ffffff;
+    /* border-radius: 50px; */
+
+   
+}
+
+
+
+
+
+
